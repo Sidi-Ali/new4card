@@ -60,7 +60,7 @@ I am going to continue learning frontend Web development.
 
 ### Useful resources
 
-- [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) -  This helped me to understand how arrange items in rows and columns.
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) -  This helped me to understand how items are arranged in rows and columns.
 
 
 ## Author
