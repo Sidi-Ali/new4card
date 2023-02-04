@@ -36,7 +36,7 @@ Below is a screenshot of the mobile version of my solution.
 
 ### Links
 
-- [Solution](https://github.com/Sidi-Ali/Four-card-feature-section-challenge)
+- [Solution](https://github.com/Sidi-Ali/new4card)
 - [Live Site](https://sidi-ali.github.io/Four-card-feature-section-challenge/)
 
 ## My process
