@@ -1,0 +1,140 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  Font-size: 15px;
+  text-align: center;
+}
+
+h3{
+  margin-top: auto;
+}
+
+img{
+  margin: 20px auto 0 auto;
+  float: right;
+}
+
+p{
+font-weight:normal;
+color: #AAAAAA;
+}
+
+.firstp{
+  width: 45%;
+  margin: auto;
+  color: #AAAAAA;
+  margin-bottom: 40px;
+}
+.firsth2{
+  font-weight: normal;
+  margin: 50px auto 0 auto;
+  color: #AAAAAA;
+}
+
+.secondh2{
+  margin-top: 0;
+
+}
+
+.Cyan-card{
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-radius: 2%;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 8px 16px -2px #D3D3D3;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+.red-card{
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-radius: 2%;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 8px 16px -2px #D3D3D3;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+.orange-card{
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-radius: 2%;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 8px 16px -2px #D3D3D3;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+.blue-card{
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-radius: 2%;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 8px 16px -2px #D3D3D3;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:380px) and (max-width:780px){
+  .box{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width:780px) and (max-width:1030px){
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .mid{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+
+  }
+  .box1{
+    margin-right: auto;
+
+  }
+  .box2{
+    margin-left: auto;
+    order: -1;
+  }
+}
+
+@media screen and (min-width:1030px){
+  .container{
+    flex-direction: row;
+  }
+  .mid{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Cyan-card{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .blue-card{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (min-width:1107px) {
+  .box1{
+    margin-left: auto;
+  }
+  .box2{
+    margin-right: auto;
+  }
+}
